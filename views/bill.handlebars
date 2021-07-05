@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+
+        table,
+        td {
+            border-collapse: collapse;
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        img {
+            border: 0;
+            height: auto;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+            -ms-interpolation-mode: bicubic;
+        }
+
+        p {
+            display: block;
+            margin: 13px 0;
+        }
+    </style>
+    <style type="text/css">
+        @media only screen and (max-width:490px) {
+            @-ms-viewport {
+                width: 320px;
+            }
+
+            @viewport {
+                width: 320px;
+            }
+        }
+    </style>
+    <style type="text/css">
+        @media only screen and (max-width:1000px) {
+            .mj-column-per-100 {
+                width: 100% !important;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <div class="bill" style="margin:40px auto; max-width:800px; border:1px solid #c4c4c4 ">
+            <table align="center" style="width: 100%">
+                <tr>
+                    <td align="center" style="width: 100%;">
+                        <div style="border:2px solid #8cc84c; background:#8cc84c; width:100%"></div>
+                    </td>
+                </tr>
+            </table>
+            <table align="center" border="0" style="width:100%">
+                <tbody>
+                    <tr>
+                        <td align="center" style="padding: 20px 0;">
+                            <div style="width: 64px;">
+                                <img height="auto" src="https://www.nodemy.vn/images/logo/logo.png"
+                                    style="border:0;display:block;outline:none;text-decoration:none;width:100%;"
+                                    width="64" />
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table border="0" style="width:100%; min-width:450px">
+                <tr>
+                    <td align="center">
+                        <h1>Chào mừng bạn đã đăng ký các khóa học của Nodemy</h1>
+                    </td>
+                </tr>
+            </table>
+            <table align="center" style="width:100%" border="0">
+                <tbody>
+                    <tr>
+                        <td align="center">
+                            <h2>Xác nhận đăng ký</h2>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table align="center" border="0" style="vertical-align:top; width: 80%; padding: 0 1em">
+                <tbody>
+                    <tr>
+                        <td align="center">
+                            <table border="0">
+                                <tbody>
+                                    <tr>
+                                        <td align='left' style="display:flex; flex-direction:row;align-items: center">
+                                            <h4 style=" margin:0; width:100px">Học viên:
+                                            </h4>
+                                            <p style="margin:0; line-height: 22px;max-height: 50px; width:260px ">
+                                                {{{contact.name}}}
+                                            </p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align='left' style="display:flex; flex-direction:row;align-items: center">
+                                            <h4 style="margin:0; width:100px">Email:
+                                            </h4>
+                                            <p style=" margin:0;line-height: 22px;max-height: 50px; width:260px ">
+                                                {{{email}}}</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" style="display:flex; flex-direction:row">
+                                            <h4 style="margin:0; width:100px">Tổng giá
+                                                trị:</h4>
+                                            <span
+                                                style=" margin:0; width:130px;line-height: 22px;max-height: 50px;  font-weight:700; color:red">
+                                                {{{totalPrice}}} VNĐ
+                                            </span>
+                                            {{#if originPrice}}
+                                            <span
+                                                style=" margin:0; width:130px;line-height: 22px;max-height: 50px; color:black ; text-decoration: line-through">
+                                                {{{originPrice}}} VNĐ
+                                            </span>
+                                            {{/if}}
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" style="display:flex; flex-direction:row;align-items: center">
+                                            <h4 style="margin:0; width:100px">Hỗ trợ:
+                                            </h4>
+                                            <p style="margin:0;line-height: 22px;max-height: 50px; width:260px">
+                                                {{{totalTicket}}}
+                                                luợt miễn phí</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" style="display:flex; flex-direction:row;align-items: center">
+                                            <h4 style="margin:0; width:100px">Mã đơn
+                                                hàng:</h4>
+                                            <p style="margin:0; line-height: 22px;max-height: 50px; width:260px">
+                                                {{{code}}}</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table align="center" style="width:100%" border="0">
+                <tbody align="center">
+                    <tr>
+                        <td align="center">
+                            <h2>Khóa học đăng ký</h2>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table>
+                <tbody>
+                    <tr align="center">
+                        {{#each detail}}
+                        <td align="center" style="width: 30%; min-width:200px; display:inline-block">
+                            <div style="margin: 20px 20px;" class="course">
+                                <div
+                                    style="border-radius: 5%; border:1px solid #c4c4c4; box-shadow: 4px 8px #c4c4c4; padding: 1px 3px">
+                                    <div>
+                                        <img src="https://class.nodemy.vn/api/{{this.image}}"
+                                            style=" width:100%; border-radius:5%" alt="">
+                                    </div>
+                                    <div>
+                                        <p
+                                            style="font-size: 1em ;font-weight:600;line-height: 22px;max-height: 50px ; padding:5px">
+                                            {{this.title}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        {{/each}}
+                    </tr>
+                </tbody>
+            </table>
+
+            <table align="center" style="width: 100%;" border="0">
+                <tbody>
+                    <tr>
+                        <td align="center" style="display: flex; justify-content: center;">
+                            <button
+                                style="margin:0 auto;padding: 15px 25px; background: #8cc84c; border-radius: 5% ; border:0; outline:0">
+                                <a style="color:white; font-weight:700"
+                                    href="https://class.nodemy.vn/cart?id={{{bill}}}">
+
+                                    {{!-- href="http://localhost:3000/cart?id={{{bill}}}" > --}}
+
+                                    Xem đơn hàng</a>
+                            </button>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+            <table align="center" border="0"
+                style="width: 80%; vertical-align:top; margin-top:20px; margin-bottom:20px; padding: 0 1em">
+                <tbody>
+                    <tr>
+                        <td align="center">
+                            <table>
+                                <tr>
+                                    <td align="left">
+                                        <h3>Liên hệ, trợ giúp:</h3>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align='left' style="display:flex; flex-direction:row">
+                                        <h4 style="margin:0; width:100px">Name:
+                                        </h4>
+                                        <p style="margin:0; line-height: 22px;max-height: 50px; width:260px">
+                                            Công ty TNHH Công
+                                            nghệ
+                                            Nodemy Việt Nam</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align='left' style="display:flex; flex-direction:row">
+                                        <h4 style="margin:0;width:100px">Address:
+                                        </h4>
+                                        <p style="margin:0; line-height: 22px;max-height: 50px; width:260px">
+                                            A4 BT3, 214 Nguyễn Xiển, Hà Nội</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="left" style="display:flex; flex-direction:row">
+                                        <h4 style="margin:0;width:100px">Email:
+                                        </h4>
+                                        <a href="info@nodemy.vn">
+                                            <p
+                                                style="word-wrap: break-word; margin:0; line-height: 22px; max-height: 50px; width:260px">
+                                                info@nodemy.vn</p>
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="left" style="display:flex; flex-direction:row">
+                                        <h4 style="width:100px;margin:0">Page:</h4>
+                                        <table border="0" cellpadding="0" cellspacing="0" style="width:110px;">
+                                            <tbody>
+                                                <tr>
+                                                    <td align="center">
+                                                        <a href="https://www.facebook.com/nodemy.vn"
+                                                            target="_blank"><img alt="Facebook" border="0" height="28"
+                                                                src="https://img.icons8.com/color/48/000000/facebook.png"
+                                                                style="display:block; width:28!important; height:28!important;"
+                                                                width="28"></a>
+                                                    </td>
+                                                    <td align="center">
+                                                        <a href="https://www.youtube.com/channel/UCMfiIOjAzHZ9vyoqNdcPvNA"
+                                                            target="_blank"><img alt="Linkedin" border="0" height="28"
+                                                                src="https://img.icons8.com/color/48/000000/youtube-play.png"
+                                                                style="display:block; width:28!important; height:28!important;"
+                                                                width="28"></a>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </table>
+
+
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+            padding: 0;
+        }
+
+        .line {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .line p {
+            padding: 5px;
+            word-wrap: break-word;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    </style>
+</body>
+
+</html>

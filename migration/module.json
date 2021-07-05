@@ -1,0 +1,191 @@
+[{
+  "_id": {
+    "$oid": "5f2b5c6fc4caf61994fb5877"
+  },
+  "lessons": [
+    "5f272edb4383c91b48951357",
+    "5f272edb4383c91b48951358",
+    "5f272edb4383c91b48951359",
+    "5f272edb4383c91b4895135a",
+    "5f272edb4383c91b4895135b",
+    "5f272edb4383c91b4895135c"
+  ],
+  "title": "MODULE 1: HTML - CSS",
+  "description": "Nắm được kiến thức về html, css và có thể tự làm 1 giao diện webstite tĩnh.",
+  "points": [
+    {
+      "_id": {
+        "$oid": "5f2b5c6fc4caf61994fb5878"
+      },
+      "title": "Assignment",
+      "level": 2
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5f2b5c8dc4caf61994fb5879"
+  },
+  "lessons": [
+    "5f272edb4383c91b4895135d",
+    "5f272edb4383c91b4895135e",
+    "5f272edb4383c91b4895135f",
+    "5f272edb4383c91b48951360",
+    "5f272edb4383c91b48951361"
+  ],
+  "title": "MODULE 2: JS",
+  "description": "Có kiến thức về js.",
+  "points": []
+},{
+  "_id": {
+    "$oid": "5f2b5cc5c4caf61994fb587a"
+  },
+  "lessons": [
+    "5f272edb4383c91b48951362",
+    "5f272edb4383c91b48951363"
+  ],
+  "title": "MODULE 3: GIT",
+  "description": "Biết tạo repo git, đẩy code lên git và ghép code giữa các thành viên trong nhóm.",
+  "points": [
+    {
+      "_id": {
+        "$oid": "5f2b5cc5c4caf61994fb587b"
+      },
+      "title": "Assignment",
+      "level": 1
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5f2b5d12c4caf61994fb587c"
+  },
+  "lessons": [
+    "5f272edb4383c91b48951364",
+    "5f272edb4383c91b48951365"
+  ],
+  "title": "MODULE 4: NODEJS",
+  "description": "Nắm bắt được cách tạo 1 server , quản lí các api.",
+  "points": []
+},{
+  "_id": {
+    "$oid": "5f2b5db8c4caf61994fb587d"
+  },
+  "lessons": [
+    "5f272edb4383c91b48951366",
+    "5f272edb4383c91b48951367",
+    "5f272edb4383c91b48951368",
+    "5f272edb4383c91b48951369",
+    "5f272edb4383c91b4895136a",
+    "5f272edb4383c91b4895136b"
+  ],
+  "title": "MODULE 5: DATABASE & PROJECT 1",
+  "description": "Biết các câu lệnh thêm, sửa , xóa, hiển thị dữ liệu trong database, làm project 1, cách kết nối giữa server với database .",
+  "points": []
+},{
+  "_id": {
+    "$oid": "5f2b5e3ac4caf61994fb587e"
+  },
+  "lessons": [
+    "5f272edb4383c91b4895136c",
+    "5f272edb4383c91b4895136d",
+    "5f272edb4383c91b4895136e",
+    "5f272edb4383c91b4895136f",
+    "5f272edb4383c91b48951370",
+    "5f27540a21132829ec9b5a24"
+  ],
+  "title": "MODULE 6: AUTHENTICATION & AUTHORTICATION, PROJECT 2",
+  "description": "Mã hóa mật khẩu, xác thực, phân quyền dựa trên mã token, và các lưu mã token vào cookie, session, làm project 2.",
+  "points": [
+    {
+      "_id": {
+        "$oid": "5f2b5e3fc4caf61994fb587f"
+      },
+      "title": "Assignment",
+      "level": 2
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5f2b5ed1c4caf61994fb5883"
+  },
+  "lessons": [
+    "5f2754b521132829ec9b5a25",
+    "5f27551a21132829ec9b5a26",
+    "5f27558421132829ec9b5a27",
+    "5f27560f21132829ec9b5a28",
+    "5f27564b21132829ec9b5a29",
+    "5f27569a21132829ec9b5a2a",
+    "5f2756cf21132829ec9b5a2b"
+  ],
+  "title": "MODULE 7: REACTJS",
+  "description": "Làm giao diện website bằng reactjs, lưu trữ dữ liệu vào redux.",
+  "points": [
+    {
+      "_id": {
+        "$oid": "5f2b5ed1c4caf61994fb5884"
+      },
+      "title": "Assignment",
+      "level": 2
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5f2b5efbc4caf61994fb5886"
+  },
+  "lessons": [
+    "5f27570021132829ec9b5a2c"
+  ],
+  "title": "MODULE 8: SOCKET",
+  "description": "",
+  "points": []
+},{
+  "_id": {
+    "$oid": "5f2b5f4bc4caf61994fb5887"
+  },
+  "lessons": [
+    "5f27574c21132829ec9b5a2d",
+    "5f275afd21132829ec9b5a2e",
+    "5f275b2621132829ec9b5a2f",
+    "5f275b7b21132829ec9b5a30",
+    "5f275c3721132829ec9b5a31",
+    "5f275c5221132829ec9b5a32",
+    "5f275c8821132829ec9b5a33",
+    "5f275c9f21132829ec9b5a34",
+    "5f275cb221132829ec9b5a35",
+    "5f275cc221132829ec9b5a36",
+    "5f275cfc21132829ec9b5a37",
+    "5f275d0d21132829ec9b5a38",
+    "5f275d2821132829ec9b5a39",
+    "5f275d3b21132829ec9b5a3a",
+    "5f275d5321132829ec9b5a3b",
+    "5f275d9821132829ec9b5a3c",
+    "5f275de821132829ec9b5a3d",
+    "5f275dfb21132829ec9b5a3e",
+    "5f275e0b21132829ec9b5a3f",
+    "5f275e2321132829ec9b5a40",
+    "5f275e3121132829ec9b5a41",
+    "5f275e8a21132829ec9b5a42"
+  ],
+  "title": "MODULE 9: PROJECT CUỐI KHÓA",
+  "description": "Chia nhóm, lên ý tưởng, phân chia công việc hoàn thiện project cuối khóa.",
+  "points": [
+    {
+      "_id": {
+        "$oid": "5f2b5f57c4caf61994fb5888"
+      },
+      "title": "Assignment",
+      "level": 2
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5f2b5fffc4caf61994fb5889"
+  },
+  "lessons": [
+    "5f275e9e21132829ec9b5a43",
+    "5f275eb221132829ec9b5a44",
+    "5f275ed821132829ec9b5a45"
+  ],
+  "title": "MODULE 10: DOCKER & DEPLOY, CV",
+  "description": "Hướng dẫn đẩy project cuối khóa lên vps hoặc heroku, hướng dẫn viết CV và phỏng vấn",
+  "points": []
+}]

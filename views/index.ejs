@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title></title>
+    <link rel='stylesheet' href='../public/stylesheets/style.css' />
+  </head>
+  <body>
+    <span style="color: red;">Nhấn Choose File để chọn ảnh rồi sau đó nhấn Đổi ảnh đại diện để thay đổi ảnh đại diện</span>
+    <br><br>
+    <% if(typeof(avatar) != 'undefined') {%>
+      <img src="../<%=avatar%>" alt="Đây là ảnh đại diện" style="width: 150px;height: 150px;">
+    <% } %>
+    <br>
+    <form action="/me/update-avatar" method="POST" enctype="multipart/form-data">
+        <input type="file" name="avatar" required>
+        <br><br>
+        <button type="submit">Đổi ảnh đại diện</button>
+    </form>
+    <br>
+    <a href="/logout">Logout</a>
+  </body>
+</html>

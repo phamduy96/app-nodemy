@@ -1,0 +1,13 @@
+staging:
+  type: deploy
+  script:
+  - cd /home/nodemy/nodemy_system/nodemy-server/
+  - sudo git pull
+  - sudo npm install
+  - cd ../nodemy-webapp/
+  - sudo git pull
+  - cd ../docker-config/
+  - sudo docker-compose down
+  - sudo docker-compose up --build -d
+  only:
+  - master

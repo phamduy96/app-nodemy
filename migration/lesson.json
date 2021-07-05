@@ -1,0 +1,241 @@
+[{
+  "_id": "5f272edb4383c91b48951357",
+  "title": "LESSON 1: HTML",
+  "description": "HTML cơ bản"
+},{
+  "_id": "5f272edb4383c91b48951358",
+  "title": "LESSON 3: CSS buổi 2",
+  "description": "position, box-sizing, display"
+},{
+  "_id": "5f272edb4383c91b48951359",
+  "title": "LESSON 2: CSS buổi 1",
+  "description": "border, color, background, cách truyền css vào html, text-align, margin, padding"
+},{
+  "_id": "5f272edb4383c91b4895135a",
+  "title": "LESSON 4: CSS buổi 3",
+  "description": "flex, responsive, bootstrap"
+},{
+  "_id": "5f272edb4383c91b4895135b",
+  "title": "LESSON 5: Hoàn thiện project psd",
+  "description": ""
+},{
+  "_id": "5f272edb4383c91b4895135c",
+  "title": "LESSON 6: Hoàn thiện project psd",
+  "description": ""
+},{
+  "_id": "5f272edb4383c91b4895135d",
+  "title": "LESSON 7: JS buổi 1",
+  "description": "khai báo biến, vòng lặp, toán tử trong js , câu lệnh điều kiện trong js"
+},{
+  "_id": "5f272edb4383c91b4895135e",
+  "title": "LESSON 8: JS buổi 2",
+  "description": "Các method trong js: array, string, math"
+},{
+  "_id": "5f272edb4383c91b4895135f",
+  "title": "LESSON 9: JS buổi 3",
+  "description": "scope, object, eventloop"
+},{
+  "_id": "5f272edb4383c91b48951360",
+  "title": "LESSON 10: JS buổi 4",
+  "description": "promise, ôn lại về object, jquery"
+},{
+  "_id": "5f272edb4383c91b48951361",
+  "title": "LESSON 11: Tổng ôn về js",
+  "description": "ôn lại 1 lần tất cả các kiến thức về js"
+},{
+  "_id": "5f272edb4383c91b48951362",
+  "title": "LESSON 12: GIT buổi 1",
+  "description": "cách hoạt động của git và các câu lệnh về git cơ bản"
+},{
+  "_id": "5f272edb4383c91b48951363",
+  "title": "LESSON 13: GIT buổi 2",
+  "description": "cách tạo nhánh, thực hiện ghép code theo nhóm, làm 1 project về html, css cơ bản để luyện tập về git "
+},{
+  "_id": "5f272edb4383c91b48951364",
+  "title": "LESSON 14: NODEJS buổi 1",
+  "description": "npm, built-in nodejs, package của nodejs"
+},{
+  "_id": "5f272edb4383c91b48951365",
+  "title": "LESSON 15: NODEJS buổi 2",
+  "description": "express, RESTful API"
+},{
+  "_id": "5f272edb4383c91b48951366",
+  "title": "LESSON 16: DATABASE buổi 1",
+  "description": "cách cài mongodb, một số định nghĩa về mongodb, cách tạo model, schema, các câu lệnh về mongodb cơ bản"
+},{
+  "_id": "5f272edb4383c91b48951367",
+  "title": "LESSON 17: DATABASE buổi 2",
+  "description": "Một số tìm kiếm nâng cao trong mongodb: $gt, $lt,..., limit, skip, luyện tập về mongodb"
+},{
+  "_id": "5f272edb4383c91b48951368",
+  "title": "LESSON 18: DATABASE buổi 3",
+  "description": "Hướng dẫn kết nối giữa server và mongodb, tạo trang login, đăng kí có tương tác với server và database bằng thẻ form trong html"
+},{
+  "_id": "5f272edb4383c91b48951369",
+  "title": "LESSON 19: KẾT NỐI GIỮA CLIENT VÀ SERVER",
+  "description": "ajax, hướng dẫn làm đăng kí, đăng nhập bằng ajax"
+},{
+  "_id": "5f272edb4383c91b4895136a",
+  "title": "LESSON 20: PROJECT 1",
+  "description": ""
+},{
+  "_id": "5f272edb4383c91b4895136b",
+  "title": "LESSON 21: PROJECT 1",
+  "description": ""
+},{
+  "_id": "5f272edb4383c91b4895136c",
+  "title": "LESSON 22: bcrypt và jwt",
+  "description": "cách sử dụng bcrypt và jwt"
+},{
+  "_id": "5f272edb4383c91b4895136d",
+  "title": "LESSON 23: COOKIE VÀ SESSION",
+  "description": "cách lưu giá trị token vào cookie, cách sử dụng session"
+},{
+  "_id": "5f272edb4383c91b4895136e",
+  "title": "LESSON 24: localStorage và phân quyền",
+  "description": "hướng dẫn lưu thông tin người dùng vào localStorage, và phân quyền dựa trên mã jwt"
+},{
+  "_id": "5f272edb4383c91b4895136f",
+  "title": "LESSON 25: PROJECT 2",
+  "description": ""
+},{
+  "_id": "5f272edb4383c91b48951370",
+  "title": "LESSON 26: PROJECT 2",
+  "description": ""
+},{
+  "_id": "5f27540a21132829ec9b5a24",
+  "title": "LESSON 27: review code project 2 và chấm điểm",
+  "description": ""
+},{
+  "_id": "5f2754b521132829ec9b5a25",
+  "title": "LESSON 28: REACT buổi 1",
+  "description": "giới thiệu về class, props, state, setState"
+},{
+  "_id": "5f27551a21132829ec9b5a26",
+  "title": "LESSON 29: REACT buổi 2",
+  "description": "nhúng css vào react, viết logic js vào react"
+},{
+  "_id": "5f27558421132829ec9b5a27",
+  "title": "LESSON 30: REACT buổi 3",
+  "description": "dùng bootstrap vào react, axios để kết nối với server"
+},{
+  "_id": "5f27560f21132829ec9b5a28",
+  "title": "LESSON 31: REACT buổi 4",
+  "description": "router, cách lấy giá trị token gửi lên server , làm 1 project về todolist bằng react"
+},{
+  "_id": "5f27564b21132829ec9b5a29",
+  "title": "LESSON 32: REACT buổi 5",
+  "description": "redux"
+},{
+  "_id": "5f27569a21132829ec9b5a2a",
+  "title": "LESSON 33: REACT buổi 6",
+  "description": "làm todolist  và lưu giá trị vào redux"
+},{
+  "_id": "5f2756cf21132829ec9b5a2b",
+  "title": "LESSON 34: REACT buổi 7",
+  "description": "review kiến thức, project làm bằng react"
+},{
+  "_id": "5f27570021132829ec9b5a2c",
+  "title": "LESSON 35: SOCKET",
+  "description": "hướng dẫn về socket"
+},{
+  "_id": "5f27574c21132829ec9b5a2d",
+  "title": "LESSON 36: PROJECT CUỐI KHÓA",
+  "description": "chia nhóm, lên ý tưởng, phân chia công việc, hướng dẫn làm việc bằng trello"
+},{
+  "_id": "5f275afd21132829ec9b5a2e",
+  "title": "LESSON 37: PROJECT cuối khóa buổi 1",
+  "description": "báo cáo tình hình project cuối khóa"
+},{
+  "_id": "5f275b2621132829ec9b5a2f",
+  "title": "LESSON 38: PROJECT cuối khóa buổi 2",
+  "description": "báo cáo tình hình project cuối khóa"
+},{
+  "_id": "5f275b7b21132829ec9b5a30",
+  "title": "LESSON 39: PROJECT cuối khóa buổi 3",
+  "description": "báo cáo tình hình project cuối khóa"
+},{
+  "_id": "5f275c3721132829ec9b5a31",
+  "title": "LESSON 40: PROJECT cuối khóa buổi 4",
+  "description": "báo cáo tình hình project cuối khóa"
+},{
+  "_id": "5f275c5221132829ec9b5a32",
+  "title": "LESSON 41: PROJECT cuối khóa buổi 5",
+  "description": "báo cáo tình hình project cuối khóa"
+},{
+  "_id": "5f275c8821132829ec9b5a33",
+  "title": "LESSON 42: PROJECT cuối khóa buổi 6",
+  "description": "báo cáo tình hình project"
+},{
+  "_id": "5f275c9f21132829ec9b5a34",
+  "title": "LESSON 43: PROJECT cuối khóa buổi 7",
+  "description": "báo cáo tình hình project"
+},{
+  "_id": "5f275cb221132829ec9b5a35",
+  "title": "LESSON 44: PROJECT cuối khóa buổi 8",
+  "description": "báo cáo tình hình project"
+},{
+  "_id": "5f275cc221132829ec9b5a36",
+  "title": "LESSON 45: PROJECT cuối khóa buổi 9",
+  "description": "báo cáo tình hình project"
+},{
+  "_id": "5f275cfc21132829ec9b5a37",
+  "title": "LESSON 46: PROJECT cuối khóa buổi 10",
+  "description": "báo cáo tình hình project"
+},{
+  "_id": "5f275d0d21132829ec9b5a38",
+  "title": "LESSON 47: PROJECT cuối khóa buổi 11",
+  "description": "báo cáo tình hình project"
+},{
+  "_id": "5f275d2821132829ec9b5a39",
+  "title": "LESSON 48: PROJECT cuối khóa buổi 12",
+  "description": "báo cáo tình hình project"
+},{
+  "_id": "5f275d3b21132829ec9b5a3a",
+  "title": "LESSON 49: PROJECT cuối khóa buổi 13",
+  "description": "báo cáo tình hình project"
+},{
+  "_id": "5f275d5321132829ec9b5a3b",
+  "title": "LESSON 50: PROJECT cuối khóa buổi 14",
+  "description": "báo cáo tình hình project"
+},{
+  "_id": "5f275d9821132829ec9b5a3c",
+  "title": "LESSON 51: PROJECT cuối khóa buổi 15",
+  "description": "báo cáo project cuối khóa"
+},{
+  "_id": "5f275de821132829ec9b5a3d",
+  "title": "LESSON 52: PROJECT cuối khóa buổi 16",
+  "description": "báo cáo project cuối khóa"
+},{
+  "_id": "5f275dfb21132829ec9b5a3e",
+  "title": "LESSON 53: PROJECT cuối khóa buổi 17",
+  "description": "báo cáo project cuối khóa"
+},{
+  "_id": "5f275e0b21132829ec9b5a3f",
+  "title": "LESSON 54: PROJECT cuối khóa buổi 18",
+  "description": "báo cáo project cuối khóa"
+},{
+  "_id": "5f275e2321132829ec9b5a40",
+  "title": "LESSON 55: PROJECT cuối khóa buổi 19",
+  "description": "báo cáo project cuối khóa"
+},{
+  "_id": "5f275e3121132829ec9b5a41",
+  "title": "LESSON 56: PROJECT cuối khóa buổi 20",
+  "description": "báo cáo project cuối khóa"
+},{
+  "_id": "5f275e8a21132829ec9b5a42",
+  "title": "LESSON 57: review về project cuối khóa",
+  "description": ""
+},{
+  "_id": "5f275e9e21132829ec9b5a43",
+  "title": "LESSON 58: hướng dẫn về docker",
+  "description": ""
+},{
+  "_id": "5f275eb221132829ec9b5a44",
+  "title": "LESSON 59: hướng dẫn deploy code lên vps",
+  "description": ""
+},{
+  "_id": "5f275ed821132829ec9b5a45",
+  "title": "LESSON 60: hướng dẫn viết CV và trả lời phỏng vấn",
+  "description": ""
+}]

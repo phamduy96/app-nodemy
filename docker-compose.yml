@@ -1,0 +1,40 @@
+# version: '3'
+
+# services:
+#   server:
+#     restart: always
+#     build:
+#       dockerfile: Dockerfile
+#       context: .
+#     volumes:
+#       - /app/node_modules
+#       - .:/app
+#     env_file: .env
+#     environment:
+#       - PORT=${PORT}
+#       - MONGO_URI=${MONGO_URI}
+#       - DOMAIN=${DOMAIN}
+#       - JWT_SECRET=${JWT_SECRET}
+#       - ACCOUNT_EMAIL=${ACCOUNT_EMAIL}
+#       - PASSWORD_EMAIL=${PASSWORD_EMAIL}
+#       - REDIS_URI=${REDIS_URI}
+#     ports:
+#       - '${PORT}:${PORT}'
+#     depends_on:
+#       - mongodb
+#   redis:
+#     container_name: redis
+#     image: redis
+#     ports:
+#       - '6379:6379'
+#   mongodb:
+#     image: mongo:latest
+#     container_name: db
+#     restart: unless-stopped
+#     ports:
+#       - '27017:27017'
+#     env_file: .env
+#     volumes:
+#       - dbdata:/data/db
+# volumes:
+#   dbdata:

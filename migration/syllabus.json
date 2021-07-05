@@ -1,0 +1,19 @@
+[{
+  "_id": {
+    "$oid": "5f2b6021c4caf61994fb588a"
+  },
+  "modules": [
+    "5f2b5c6fc4caf61994fb5877",
+    "5f2b5c8dc4caf61994fb5879",
+    "5f2b5cc5c4caf61994fb587a",
+    "5f2b5d12c4caf61994fb587c",
+    "5f2b5db8c4caf61994fb587d",
+    "5f2b5e3ac4caf61994fb587e",
+    "5f2b5ed1c4caf61994fb5883",
+    "5f2b5efbc4caf61994fb5886",
+    "5f2b5f4bc4caf61994fb5887",
+    "5f2b5fffc4caf61994fb5889"
+  ],
+  "title": "Khóa học offline nodejs",
+  "description": ""
+}]

@@ -1,0 +1,19 @@
+MONGO_URI=mongodb://localhost:27017/nodemy-system
+REDIS_URI=redis://redis
+
+GOOGLE_APP_ID=
+GOOGLE_APP_SECRET=
+GOOGLE_CALLBACK_URL=
+FACEBOOK_APP_ID=954171351677426
+FACEBOOK_APP_SECRET=1bc0ed441aeb1d16a6bef1c3a1028a84
+CALLBACK_URL=https://8b60cdba1322.ngrok.io/auth/facebook/callback
+PORT=5000
+DOMAIN=https://class.nodemy.vn/api
+HOST_DOMAIN=https://class.nodemy.vn
+HOST_DOMAIN_DEV=http://localhost:5000
+JWT_SECRET=nodemy-team
+ACCOUNT_EMAIL= thaidd7b
+PASSWORD_EMAIL=
+FRONTEND_URI=https://class.nodemy.vn
+FRONTEND_URI_DEV=http://localhost:3000
+NODE_ENV=production
